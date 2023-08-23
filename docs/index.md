@@ -10,7 +10,7 @@ Current website address:
 ```
 Current Wordpress version:
 ```
-Version 6.1.5
+Version 6.1.6
 ```
 
 ## Understaning {{mdmBasic.CompanyAlias}} Business Structure
