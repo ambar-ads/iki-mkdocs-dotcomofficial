@@ -3,6 +3,8 @@ site_name: IKI Official Site Documentation
 
 theme:
   name: material
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
   features:
     - navigation.tabs
     - navigation.instant
@@ -20,16 +22,18 @@ theme:
   palette:
     - scheme: default
       primary: white
-      accent: indigo
+      accent: white
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: white
-      accent: indigo
+      primary: black
+      accent: black
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
 
 
 markdown_extensions:
@@ -67,3 +71,12 @@ extra:
     AmbarADS: Ambar ADS
     AmbarADSDeveloperEmail: lukas.ginting@gmail.com
     AdminSite: https://indokoei.co.id/adminsite
+
+
+extra_css:
+  - stylesheets/extra.css
+
+
+repo_url: https://github.com/ambar-ads/iki-mkdocs-dotcomofficial
+repo_name: iki-mkdocs-dotcomofficial
+

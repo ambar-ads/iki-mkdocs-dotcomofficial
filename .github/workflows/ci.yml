@@ -1,4 +1,4 @@
-name: ci 
+name: iki-webdocs
 on:
   push:
     branches:
